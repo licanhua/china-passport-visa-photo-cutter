@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="387" height="516" viewBox="0 0 387 516">
+  <defs>
+    <style>
+      .guide { stroke: #d62828; stroke-width: 2; fill: none; }
+      .guide-blue { stroke: #1f78c1; stroke-width: 2; fill: none; }
+      .zone { fill: #2a9d2a; fill-opacity: 0.22; }
+      .label-red { fill: #d62828; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; }
+      .label-blue { fill: #1f78c1; font-family: Arial, sans-serif; font-size: 14px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- x scale: 33mm -> 387px, y scale: 48mm -> 516px, origin at (0,0) -->
+  <!-- Green zones behind the guidelines -->
+  <!-- area1: y=3..5mm, x=9..24mm -->
+  <rect class="zone" x="105.545" y="32.25" width="175.91" height="21.5" />
+  <!-- area2: y=5..41mm, x=6..9mm -->
+  <rect class="zone" x="70.364" y="53.75" width="35.181" height="387.5" />
+  <!-- area3: y=5..41mm, x=24..27mm -->
+  <rect class="zone" x="281.455" y="53.75" width="35.181" height="387.5" />
+
+  <!-- Horizontal red guidelines: y=3mm, y=41mm -->
+  <line class="guide" x1="0" y1="32.25" x2="387" y2="32.25" />
+  <line class="guide" x1="0" y1="441.25" x2="387" y2="441.25" />
+  <text class="label-red" x="338" y="28">3mm</text>
+  <text class="label-red" x="330" y="437">41mm</text>
+
+  <!-- Vertical red guidelines: x=9mm, x=24mm -->
+  <line class="guide" x1="105.545" y1="0" x2="105.545" y2="516" />
+  <line class="guide" x1="281.455" y1="0" x2="281.455" y2="516" />
+  <text class="label-red" x="109" y="16">9mm</text>
+  <text class="label-red" x="285" y="16">24mm</text>
+
+  <!-- Horizontal blue guideline: y=5mm -->
+  <line class="guide-blue" x1="0" y1="53.75" x2="387" y2="53.75" />
+  <text class="label-blue" x="338" y="50">5mm</text>
+
+  <!-- Vertical blue guidelines: x=6mm, x=27mm -->
+  <line class="guide-blue" x1="70.364" y1="0" x2="70.364" y2="516" />
+  <line class="guide-blue" x1="316.636" y1="0" x2="316.636" y2="516" />
+  <text class="label-blue" x="74" y="16">6mm</text>
+  <text class="label-blue" x="320" y="16">27mm</text>
+</svg>

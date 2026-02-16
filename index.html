@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinese Passport & Visa Photo Cutter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <section class="panel links-panel">
+      <h2>Start Cutting Online</h2>
+      <div class="quick-links">
+        <a class="quick-link primary-link" href="https://licanhua.github.io/china-passport-visa-photo-cutter/" target="_blank" rel="noopener noreferrer">Open GitHub Pages Cutter</a>
+        <a class="quick-link" href="https://github.com/licanhua/china-passport-visa-photo-cutter.git" target="_blank" rel="noopener noreferrer">View Source Code on GitHub</a>
+      </div>
+    </section>
+
+    <section class="panel editor-panel">
+      <h1>Chinese Passport & Visa Photo Cutter</h1>
+      <p class="subtitle">Target ratio: 33mm x 48mm | Digital output: 387 x 516 JPEG</p>
+
+      <div class="controls">
+        <label class="control">
+          <span>Upload Photo</span>
+          <input id="uploadInput" type="file" accept="image/*">
+        </label>
+
+        <label class="control">
+          <span>Scale</span>
+          <input id="scaleInput" type="range" min="0.5" max="3" step="0.01" value="1">
+        </label>
+
+        <label class="control">
+          <span>DPI (print)</span>
+          <input id="dpiInput" type="number" min="150" max="600" step="10" value="300">
+        </label>
+
+        <button id="resetBtn" type="button">Reset Position</button>
+      </div>
+
+      <div class="editor-grid">
+        <div class="editor-card">
+          <h3>Reference PNG View</h3>
+          <div class="editor-wrap">
+            <canvas id="editorBaseCanvas" width="387" height="516" aria-label="Reference PNG editor view"></canvas>
+          </div>
+        </div>
+        <div class="editor-card">
+          <h3>SVG Guide View</h3>
+          <div class="editor-wrap">
+            <canvas id="editorGuideCanvas" width="387" height="516" aria-label="SVG guideline editor view"></canvas>
+          </div>
+        </div>
+      </div>
+      <p class="hint">After upload, photo appears in both views. Drag in either view to move. Use slider or mouse wheel to zoom.</p>
+    </section>
+
+    <section class="panel preview-panel">
+      <h2>Final Preview</h2>
+
+      <div class="preview-card">
+        <h3>Digital 387 x 516</h3>
+        <canvas id="digitalPreviewCanvas" width="387" height="516"></canvas>
+        <button id="downloadDigitalBtn" type="button" disabled>Download Digital JPEG</button>
+      </div>
+
+      <div class="preview-card">
+        <h3>Printable 4 x 6</h3>
+        <p id="layout4x6" class="layout-meta"></p>
+        <canvas id="print4PreviewCanvas" width="360" height="540"></canvas>
+        <button id="download4x6Btn" type="button" disabled>Download 4x6 JPEG</button>
+      </div>
+
+      <div class="preview-card">
+        <h3>Printable 5 x 7</h3>
+        <p id="layout5x7" class="layout-meta"></p>
+        <canvas id="print5PreviewCanvas" width="360" height="504"></canvas>
+        <button id="download5x7Btn" type="button" disabled>Download 5x7 JPEG</button>
+      </div>
+    </section>
+
+    <section class="panel requirements-panel">
+      <h2>Visa Photo Requirements Reference</h2>
+      <p class="subtitle">Requirement image: ChineseVisaPhotoRequirements.jpg</p>
+      <img
+        class="requirements-image"
+        src="assets/ChineseVisaPhotoRequirements.jpg"
+        alt="Chinese visa photo requirements reference"
+      >
+    </section>
+
+    <section class="panel demo-panel">
+      <h2>Demo Video (YouTube Placeholder)</h2>
+      <p class="subtitle">Replace the placeholder link and embed URL with your real demo video.</p>
+      <a class="quick-link" href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" rel="noopener noreferrer">Open YouTube Demo Placeholder</a>
+      <div class="youtube-placeholder">
+        <span>Embed Placeholder: https://www.youtube.com/embed/YOUR_VIDEO_ID</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

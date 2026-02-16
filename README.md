@@ -4,7 +4,7 @@ A lightweight, browser‑based tool that helps anyone applying for a **Chinese p
 
 - **Source Code:** https://github.com/licanhua/china-passport-visa-photo-cutter.git  
 - **Live Cutter (GitHub Pages):** https://licanhua.github.io/china-passport-visa-photo-cutter/  
-- **Demo Video (placeholder):** https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+- **Demo Video (placeholder):** https://youtu.be/mkAjQb8uFR4
 - 
 ---
 

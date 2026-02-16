@@ -1,42 +1,60 @@
-# Chinese Passport & Visa Photo Cutter
+# 🇨🇳 Chinese Passport & Visa Photo Cutter — A Free, Open‑Source Tool for Everyone
 
-Static web app for GitHub Pages that lets users:
-- Upload and align a photo against a built-in Chinese photo reference guide.
-- Export a digital JPEG exactly `387 x 516` px.
-- Export printable JPEG sheets for `4 x 6` and `5 x 7` with evenly distributed copies.
+A lightweight, browser‑based tool that helps anyone applying for a **Chinese passport** or **Chinese visa** create perfectly sized digital photos — no fee, no installation, no backend, and no data upload.
 
-## Why this project was created
-With AI tools, it is easy to generate a white-background portrait image.  
-What is still hard is cutting that image to the correct size and framing required by Chinese visa or passport photo rules.
+- **Source Code:** https://github.com/licanhua/china-passport-visa-photo-cutter.git  
+- **Live Cutter (GitHub Pages):** https://licanhua.github.io/china-passport-visa-photo-cutter/  
+- **Demo Video (placeholder):** https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+- 
+---
 
-This project provides an easy way to:
-- Crop and align to the right size.
-- Download a digital photo for online visa submission.
-- Download printable photo sheets for physical use.
+## ✨ What This Tool Does
+- Upload a portrait photo and align it with an official‑ratio Chinese ID photo guide  
+- Export a **387 × 516 px** digital JPEG for online submissions  
+- Generate printable **4×6** and **5×7** sheets with evenly spaced copies  
 
-## Links
-- GitHub source code: https://github.com/licanhua/china-passport-visa-photo-cutter.git
-- GitHub Pages cutter: https://licanhua.github.io/china-passport-visa-photo-cutter/
-- YouTube demo placeholder: https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+Anyone preparing Chinese travel documents can use this tool to quickly produce compliant photos.
 
-## Features
-- Crop ratio fixed to Chinese photo ratio `33mm x 48mm`.
-- 50% transparent overlay editor for precise fitting against reference guide.
-- Drag to move and slider/mouse wheel to scale.
-- White background enforced in final outputs.
-- Custom print DPI input (`150-600`).
+---
 
-## Run locally
-Open `index.html` directly in a browser.
+## 💡 Why This Project Exists
+AI tools make it easy to generate a clean, white‑background portrait.  
+What remains difficult is **cropping and framing** the image to match strict Chinese ID photo standards.
 
-## Deploy to GitHub Pages
-1. Push these files to your GitHub repository root.
-2. In GitHub repository settings, open **Pages**.
-3. Set source to **Deploy from a branch**.
-4. Choose branch `main` and folder `/ (root)`.
-5. Save and wait for publish.
+This project solves that by offering:
+- Accurate cropping to the required aspect ratio  
+- A transparent reference overlay for precise alignment  
+- One‑click export for both digital and printable formats  
 
-## Output files
-- Digital: `photo-digital-387x516.jpg`
-- Print 4x6: `photo-print-4x6-<dpi>dpi.jpg`
-- Print 5x7: `photo-print-5x7-<dpi>dpi.jpg`
+---
+
+## 🧰 Features
+- Fixed crop ratio: **33mm × 48mm** (Chinese passport/visa standard)  
+- **50% transparent overlay** for accurate head‑position alignment  
+- Drag to reposition; scroll or slider to scale  
+- Automatic **white background enforcement**  
+- Custom DPI for print sheets (**150–600 DPI**)  
+
+---
+
+## 🖥️ Run Locally
+Just open `index.html` in any modern browser.  
+No build steps. No dependencies.
+
+---
+
+## 🚀 Deploy to GitHub Pages
+1. Push all files to your repository root  
+2. Go to **Settings → Pages**  
+3. Set **Source** to “Deploy from a branch”  
+4. Select branch `main` and folder `/ (root)`  
+5. Save and wait for GitHub Pages to publish  
+
+---
+
+## 📁 Output Files
+- **Digital photo:** `photo-digital-387x516.jpg`  
+- **4×6 print sheet:** `photo-print-4x6-<dpi>dpi.jpg`  
+- **5×7 print sheet:** `photo-print-5x7-<dpi>dpi.jpg`  
+
+---

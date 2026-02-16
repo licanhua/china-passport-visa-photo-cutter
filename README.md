@@ -2,10 +2,10 @@
 
 A lightweight, browser‑based tool that helps anyone applying for a **Chinese passport** or **Chinese visa** create perfectly sized digital photos — no fee, no installation, no backend, and no data upload.
 
-- **Source Code:** https://github.com/licanhua/china-passport-visa-photo-cutter.git  
 - **Live Cutter (GitHub Pages):** https://licanhua.github.io/china-passport-visa-photo-cutter/  
-- **Demo Video (placeholder):** https://youtu.be/mkAjQb8uFR4
-- 
+- **Demo Video :** https://youtu.be/mkAjQb8uFR4
+- **Source Code:** https://github.com/licanhua/china-passport-visa-photo-cutter.git
+   
 ---
 
 ## ✨ What This Tool Does
